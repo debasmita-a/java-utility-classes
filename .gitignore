@@ -1,0 +1,47 @@
+# Test Reports & Logs
+allure-results/
+screenshots/
+test-output/
+build/
+application.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+activityLog.log
+
+# Maven
+target/
+pom.xml.*  # Covers tag, releaseBackup, versionsBackup, etc.
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+local.properties
+.factorypath
+
+# macOS
+.DS_Store
+
+# GitHub Actions Runner
+actions-runner/
